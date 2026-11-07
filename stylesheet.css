@@ -1,0 +1,198 @@
+.gold{ background-color: #eeeadf;}
+.tgold{color: #B4915B;}
+
+.browsing-page {color: #B4915B;
+/* #DBB77D another color hover*/}
+
+.btn-bg {background-color: #B4915B;}
+.btn-bg:hover{ background-color: #DBB77D;}
+
+
+.nav-height{ height: 50px;}
+
+.mt-300{margin-top: 300px;}
+.mt-100{margin-top: 100px;}
+
+.mt-50{margin-top: 50px;}
+.mt-25{margin-top: 25px;}
+.mt-10{margin-top: 10px;}
+
+.pl-130{padding-left: 130px;}
+.pr-130{padding-right: 130px;}
+
+
+
+.mb-100{margin-bottom: 100px;}
+
+.brightness{opacity: 0.6;
+transition: 0.5s;}
+
+.card:hover .brightness{
+    opacity: 0.9;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.card:hover h3{ opacity: 0.3;
+    color: #eeeadf;
+transition: 0.7s;}
+
+
+.projects{opacity: 0.9;
+transition: 0.5s;}
+.projects:hover .projects{ 
+    opacity: 1.5;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;}
+
+
+
+
+.right{ justify-content: flex-end;
+padding-right: 50px;
+}
+
+.flex-row{display: inline-flex;
+width: 100%;
+height: 100%;
+flex-direction: row;
+justify-content: center;
+align-content: center;
+flex-wrap: wrap;
+
+position: absolute;
+}
+
+
+
+
+.wallpeaper {
+    background-image: url("./renovation INC/pics/kitchens1.jpg");
+    background-size: cover;
+    position: fixed;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    width: 100%;
+
+    z-index: -1;
+    opacity: 0.5;
+    top: 40px;}
+    
+.wallpeaper-two{
+    background-image: url("./renovation INC/pics/paint.jpg"); 
+    background-size: cover;
+    position: absolute;
+
+    background-position: 25%;
+    background-repeat: no-repeat;
+    height: 25%;
+    width: 100%;
+
+    z-index: -1;
+    top:70px;
+}
+
+.wallpeaper-three{
+    background-image: url("./renovation INC/pics/drywall\ design.jpg"); 
+    background-size: cover;
+    position: absolute;
+
+    background-position: 25%;
+    background-repeat: no-repeat;
+    height: 25%;
+    width: 100%;
+
+    z-index: -1;
+    top:70px;
+}
+
+.wallpeaper-four{
+    background-image: url("./renovation inc/pics/carpentry\ and\ woodworking1.jpg"); 
+    background-size: cover;
+    position: absolute;
+
+    background-position: 25%;
+    background-repeat: no-repeat;
+    height: 25%;
+    width: 100%;
+
+    z-index: -1;
+    top:70px;
+}
+
+.wallpeaper-five {
+     background-image: url("./renovation INC/pics/salonreno.jpg"); 
+    background-size: cover;
+    position: absolute;
+
+    background-position: 25%;
+    background-repeat: no-repeat;
+    height: 25%;
+    width: 100%;
+
+    z-index: -1;
+    top:70px;
+}
+
+
+
+details summary {
+    list-style: none;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+.side-text {
+    position: sticky;
+    top: 250px;
+    margin-top: 20px;
+}
+
+a{ list-style: none;
+text-decoration: none;
+color: black;}
+
+/* for completed projects */
+.long { height: 400px;
+width: 300px;}
+
+/* for how we work */
+.longg{
+    width: 400px;
+    height: 400px;
+}
+
+
+
+/* for <a> */
+.border-s{ 
+    border-color: #B4915B;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 15px;
+
+    padding-top: 5px;
+}
+
+/* for pic how we work */
+.border-b {
+    border-color: black
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+.full-width{width: 100%;}
+.text-center{ text-align: center;}
+
+.services-list > .row + .row {
+    margin-top: 5rem;
+}
+
+
